@@ -9,7 +9,7 @@ module Proxy
       # Settings listed under default_settings are required.
       # An exception will be raised if they are initialized with nil values.
       # Settings not listed under default_settings are considered optional and by default have nil value.
-      default_settings :required_setting => 'default_value', :required_path => '/must/exist'
+      default_settings required_setting: 'default_value', required_path: '/must/exist'
 
       # Verifies that a file exists and is readable.
       # Uninitialized optional settings will not trigger validation errors.
