@@ -1,7 +1,7 @@
 require 'test_helper'
 require 'smart_proxy_plugin_template/api'
 
-# Test that the plugin loads and the Smart Proxy reports the correct feature
+# Test that API returns the correct responses
 class PluginTemplateApiTest < Test::Unit::TestCase
   include Rack::Test::Methods
 
