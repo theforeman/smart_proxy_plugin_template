@@ -14,6 +14,6 @@ class PluginTemplateApiTest < Test::Unit::TestCase
     assert last_response.ok?, "Last response was not ok: #{last_response.body}"
     assert last_response['Content-Type'] == 'application/json'
     response = JSON.parse(last_response.body)
-    assert_equal(response, 'Hello World!')
+    assert_equal('Hello World!', response)
   end
 end
