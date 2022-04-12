@@ -1,4 +1,4 @@
-require 'plugin_template/api'
+require 'smart_proxy_plugin_template/api'
 
 map "/plugin_template" do
   run Proxy::PluginTemplate::Api
